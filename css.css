@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: crimson;
+    color: white;
+    font-family: sans-serif;
+}
+.wrapper{
+    padding: 10px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrapper > div{
+    border: 2px solid white;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 10px;
+    max-width: 200px;
+}
+.wrapper > div:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.4);
+}
